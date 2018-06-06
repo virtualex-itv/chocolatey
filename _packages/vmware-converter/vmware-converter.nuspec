@@ -8,7 +8,7 @@
     <title>VMware vCenter Converter Standalone</title>
     <authors>VMware, Inc.</authors>
     <projectUrl>https://my.vmware.com/en/web/vmware/info/slug/infrastructure_operations_management/vmware_vcenter_converter_standalone/6_2_0</projectUrl>
-    <iconUrl>http://cdn.rawgit.com/virtualex-itv/chocolatey/master/_icons/VMware-Converter.ico</iconUrl>
+    <iconUrl>http://cdn.rawgit.com/virtualex-itv/chocolatey/master/_icons/VMware-Converter.png</iconUrl>
     <copyright>Copyright © 2018 VMware, Inc. All rights reserved.</copyright>
     <licenseUrl>https://www.vmware.com/download/eula/universal_eula.html</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>

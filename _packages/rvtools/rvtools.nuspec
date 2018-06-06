@@ -8,7 +8,7 @@
     <title>RVTools</title>
     <authors>Rob de Veij</authors>
     <projectUrl>https://robware.net/</projectUrl>
-    <iconUrl>http://cdn.rawgit.com/virtualex-itv/chocolatey/master/_icons/RVTools.ico</iconUrl>
+    <iconUrl>http://cdn.rawgit.com/virtualex-itv/chocolatey/master/_icons/RVTools.png</iconUrl>
     <copyright>Copyright © 2018 Robware</copyright>
     <licenseUrl>https://www.robware.net/rvtools/license/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
