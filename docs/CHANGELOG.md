@@ -4,3 +4,5 @@
 
 * ***6/5/18 - Initial Commit***
  - *Added RVTools 3.10.1, VMware vCenter Converter Standalone 6.2.0.1*
+* ***6/6/18***
+  - *Added VMware Remote Console 10.0.2*
