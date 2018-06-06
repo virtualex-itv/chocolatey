@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>vmrc</id>
+    <version>10.0.2.7096020</version>
+	<packageSourceUrl>https://github.com/virtualex-itv/chocolatey/tree/master/_packages</packageSourceUrl>
+    <owners>virtualex</owners>
+    <title>VMware Remote Console</title>
+    <authors>VMware, Inc.</authors>
+    <projectUrl>https://www.vmware.com/go/download-vmrc</projectUrl>
+    <iconUrl>http://cdn.rawgit.com/virtualex-itv/chocolatey/master/_icons/vmrc.png</iconUrl>
+    <copyright>Copyright © 2017 VMware, Inc. All rights reserved.</copyright>
+    <licenseUrl>https://www.vmware.com/download/eula/universal_eula.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>vmware vsphere vmrc remote-console windows</tags>
+    <summary>VMware Remote Console provides user-guest interaction in the various products and environments that require it.</summary>
+    <description>VMware Remote Console provides access to virtual machines from remote clients and performs console and device operations such as configuring operating system seĴings and monitoring the virtual machine console for VMware vSphere. VMware Remote Console can also modify virtual machine seĴings such as RAM, CPU cores, and disks.</description>
+    <releaseNotes>https://docs.vmware.com/en/VMware-Remote-Console/10.0/rn/vmware-remote-console-1002-release-notes.html</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
