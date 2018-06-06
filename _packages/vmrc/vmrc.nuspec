@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>vmrc</id>
-    <version>10.0.2.7096020</version>
+    <version>10.0.2</version>
 	<packageSourceUrl>https://github.com/virtualex-itv/chocolatey/tree/master/_packages</packageSourceUrl>
     <owners>virtualex</owners>
     <title>VMware Remote Console</title>
