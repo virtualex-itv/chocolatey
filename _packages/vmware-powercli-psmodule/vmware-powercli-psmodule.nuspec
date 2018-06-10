@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>vmware-powercli-psmodule</id>
+    <version>10.1.0.8403314</version>
+    <title>VMware.PowerCLI (Install)</title>
+    <authors>VMware</authors>
+    <owners>bcurran3 virtualex</owners>
+    <licenseUrl>https://www.vmware.com/help/legal.html</licenseUrl>
+    <projectUrl>https://www.powershellgallery.com/packages/VMware.PowerCLI</projectUrl>
+    <iconUrl>http://cdn.rawgit.com/virtualex-itv/chocolatey/master/_icons/PowerCLI.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>VMware PowerCLI is a command-line and scripting tool built on Windows PowerShell, and provides more than 600 cmdlets for managing and automating vSphere, vCloud, vRealize Operations Manager, vSAN, NSX-T, VMware Cloud on AWS, and VMware Horizon environments.
+
+**[PACKAGE NOTES](https://github.com/bcurran3/ChocolateyPackages/blob/master/vmware-powercli-psmodule/readme.md)**</description>
+    <summary>This Windows PowerShell module contains VMware.PowerCLI</summary>
+    <releaseNotes>https://vdc-download.vmware.com/vmwb-repository/dcr-public/3cef45f8-7dc2-4c28-bbd7-0a44f24ac0d7/105db27d-5ef8-4044-b047-2e6cd3b32584/vmware-powercli-10-release-notes.html</releaseNotes>
+    <copyright>Copyright (c) VMware, Inc. All rights reserved.</copyright>
+    <tags>vmware powercli vsphere automation client virtual machine virtualization esx esxi powershell</tags>
+    <packageSourceUrl>https://github.com/bcurran3/ChocolateyPackages/tree/master/vmware-powercli-psmodule</packageSourceUrl>
+    <docsUrl>https://vdc-download.vmware.com/vmwb-repository/dcr-public/b34705db-95be-4221-8afd-300c9398532c/e93e6337-ccb3-42f8-9325-e01f43c8eb67/vmware-powercli-10-user-guide.pdf</docsUrl>
+    <mailingListUrl>https://code.vmware.com/forums/2530/vmware-powercli</mailingListUrl>
+    <dependencies>
+      <dependency id="dotnet4.5" />
+	  <dependency id="powershell" version="5.0.10586.20161201" />
+    </dependencies>
+  </metadata>
+</package>
