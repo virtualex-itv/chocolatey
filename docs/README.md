@@ -41,7 +41,3 @@ https://chocolatey.org/docs/commands-upgrade
 
 ----------
 ### ***[packages](https://github.com/virtualex-itv/chocolatey/tree/master/_packages)***
-* ##### ***[RVTools](https://github.com/virtualex-itv/chocolatey/tree/master/_packages/rvtools)***
-* ##### ***[VMware vCenter Converter Standalone](https://github.com/virtualex-itv/chocolatey/tree/master/_packages/vmware-converter)***
-* ##### ***[VMware Remote Console](https://github.com/virtualex-itv/chocolatey/tree/master/_packages/vmrc)***
-* ##### ***[VMware PowerCLI Module](https://github.com/virtualex-itv/chocolatey/tree/master/_packages/vmware-powercli-psmodule)***
