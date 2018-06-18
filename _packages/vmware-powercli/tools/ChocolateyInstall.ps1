@@ -1,10 +1,10 @@
 $ErrorActionPreference = 'Stop'
-$packageName = 'vmware-powercli-psmodule'
+$packageName = 'vmware-powercli'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 # This will install the Nuget Package Provider
 $Provider = Get-PackageProvider -ListAvailable -ErrorAction SilentlyContinue
-		
+
 If ( $Provider.Name -notmatch "NuGet" ) {
 	Install-PackageProvider -Name "nuget" -Confirm:$false -MinimumVersion "2.8.5.201" -Force
 	Set-PSRepository -Name "PSGallery" -InstallationPolicy "Trusted"
@@ -12,9 +12,9 @@ If ( $Provider.Name -notmatch "NuGet" ) {
 
 # This will install the VMware.PowerCLI Module
 $ModuleVersion = ( Get-Module "VMware.PowerCLI" ).Version
-		
-If ( $ModuleVersion -ge "6.5.1.5377412" -and $ModuleVersion -lt "10.1.0.8403314" ) { Update-Module "VMware.PowerCLI" -RequiredVersion "10.1.0.8403314" }
-Else { Find-Module -Name "VMware.PowerCLI" | Install-Module -RequiredVersion "10.1.0.8403314" -Scope "AllUsers" -AllowClobber -Force }
+
+If ( $ModuleVersion -ge "6.5.1.5377412" -and $ModuleVersion -lt "10.1.1.8827524" ) { Update-Module "VMware.PowerCLI" -RequiredVersion "10.1.1.8827524" }
+Else { Find-Module -Name "VMware.PowerCLI" | Install-Module -RequiredVersion "10.1.1.8827524" -Scope "AllUsers" -AllowClobber -Force }
 
 
 #region Function New-Shortcut
@@ -84,10 +84,10 @@ Function New-Shortcut {
 		[ValidateNotNullOrEmpty()]
 		[boolean]$ContinueOnError = $true
 	)
-	
+
 	Begin {
 		[string]${CmdletName} = $PSCmdlet.MyInvocation.MyCommand.Name
-			
+
 		If (-not $Shell) { [__comobject]$Shell = New-Object -ComObject 'WScript.Shell' -ErrorAction 'Stop' }
 	}
 	Process {
@@ -95,7 +95,7 @@ Function New-Shortcut {
 			Try {
 				[IO.FileInfo]$Path = [IO.FileInfo]$Path
 				[string]$PathDirectory = $Path.DirectoryName
-				
+
 				If (-not (Test-Path -LiteralPath $PathDirectory -PathType 'Container' -ErrorAction 'Stop')) {
 					Write-Log -Message "Create shortcut directory [$PathDirectory]." -Source ${CmdletName}
 					$null = New-Item -Path $PathDirectory -ItemType 'Directory' -Force -ErrorAction 'Stop'
@@ -104,7 +104,7 @@ Function New-Shortcut {
 			Catch {
 				Throw
 			}
-			
+
 			If (($path.FullName).ToLower().EndsWith('.url')) {
 				[string[]]$URLFile = '[InternetShortcut]'
 				$URLFile += "URL=$targetPath"
@@ -131,7 +131,7 @@ Function New-Shortcut {
                 If ($hotkey) {$shortcut.Hotkey = $hotkey}
 				If ($iconLocation) { $shortcut.IconLocation = $iconLocation }
 				$shortcut.Save()
-				
+
 				## Set shortcut to run program as administrator
 				If ($RunAsAdmin) {
 					#Write-Log -Message 'Set shortcut to run program as administrator.' -Source ${CmdletName}
