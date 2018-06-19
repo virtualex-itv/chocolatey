@@ -1,5 +1,5 @@
 $ErrorActionPreference = 'Stop'
-$packageName = 'vmware-powercli'
+$packageName = 'vmware-powercli-pwsh'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 # This will install the Nuget Package Provider
