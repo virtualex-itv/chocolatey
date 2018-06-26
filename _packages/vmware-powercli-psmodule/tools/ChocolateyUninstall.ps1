@@ -1,5 +1,5 @@
 ﻿$ErrorActionPreference = 'Stop'
-$packageName = 'vmware-powercli-pwsh'
+$packageName = 'vmware-powercli-psmodule'
 $Path = "$env:Public\Desktop\VMware PowerCLI.lnk"
 
 Uninstall-Module -Name VMware.DeployAutomation -Force

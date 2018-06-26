@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <id>vmware-powercli-pwsh</id>
+    <id>vmware-powercli-psmodule</id>
     <version>10.1.1.8827524</version>
     <title>VMware.PowerCLI</title>
     <authors>VMware, Inc.</authors>
@@ -12,12 +12,12 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>VMware PowerCLI provides a Windows PowerShell interface to the VMware vSphere, vCloud, vRealize Operations Manager, and VMware Horizon APIs. VMware PowerCLI includes numerous cmdlets, sample scripts, and a function library.
 
-**[PACKAGE NOTES](https://github.com/virtualex-itv/chocolatey/blob/master/_packages/vmware-powercli-pwsh/README.md)**</description>
+**[PACKAGE NOTES](https://github.com/virtualex-itv/chocolatey/blob/master/_packages/vmware-powercli-psmodule/README.md)**</description>
     <summary>This Windows PowerShell module contains VMware.PowerCLI</summary>
     <releaseNotes>https://vdc-download.vmware.com/vmwb-repository/dcr-public/bfd0f802-3585-4664-ac8b-6c5da5dcdb73/fbd54c54-3282-4819-afaf-70f084040a16/vmware-powercli-1011-release-notes.html</releaseNotes>
     <copyright>Copyright (c) VMware, Inc. All rights reserved.</copyright>
     <tags>vmware powercli vsphere automation client virtual machine virtualization esx esxi powershell</tags>
-    <packageSourceUrl>https://github.com/virtualex-itv/chocolatey/blob/master/_packages/vmware-powercli-pwsh</packageSourceUrl>
+    <packageSourceUrl>https://github.com/virtualex-itv/chocolatey/blob/master/_packages/vmware-powercli-psmodule</packageSourceUrl>
     <docsUrl>https://vdc-download.vmware.com/vmwb-repository/dcr-public/76e07a15-f457-47a0-a16c-0db7bd31bda8/9d37ff69-25de-45d9-80c1-16a1f429b86e/vmware-powercli-1011-user-guide.pdf</docsUrl>
     <mailingListUrl>https://code.vmware.com/forums/2530/vmware-powercli</mailingListUrl>
     <dependencies>
