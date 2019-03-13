@@ -2,9 +2,9 @@ $ErrorActionPreference	= 'Stop';
 $toolsDir				= "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageName			= 'rvtools'
 $installerType			= 'msi'
-$url					= 'https://robware.net/download/501D8EE9-B871-45FB-B2A1-9BE0B7BFF024/RVTools3.10.msi'
+$url					= 'https://robware.net/download/501D8EE9-B871-45FB-B2A1-9BE0B7BF1204/RVTools3.11.6.msi'
 $softwareName			= 'RVTools*'
-$checksum				= '3582DEF818A8E0D532C064F8BFB44C877AE43D0AC156A8E8E6F2029F87D6C3A3'
+$checksum				= 'F6A187FEE12E9E3BE35B72AED0236672F48B81C8B535B590960FD35B3C0D7A8C'
 $checksumType			= 'sha256'
 $silentArgs			= "/qn REBOOT=ReallySuppress"
 $validExitCodes		= @(0)
