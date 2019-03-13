@@ -13,8 +13,8 @@ If ( $Provider.Name -notmatch "NuGet" ) {
 # This will install the VMware.PowerCLI Module
 $ModuleVersion = ( Get-Module "VMware.PowerCLI" ).Version
 
-If ( $ModuleVersion -ge "6.5.1.5377412" -and $ModuleVersion -lt "10.1.1.8827524" ) { Update-Module "VMware.PowerCLI" -RequiredVersion "10.1.1.8827524" }
-Else { Find-Module -Name "VMware.PowerCLI" | Install-Module -RequiredVersion "10.1.1.8827524" -Scope "AllUsers" -AllowClobber -Force }
+If ( $ModuleVersion -ge "6.5.1.5377412" -and $ModuleVersion -lt "11.2.0.12483598" ) { Update-Module "VMware.PowerCLI" -RequiredVersion "11.2.0.12483598" }
+Else { Find-Module -Name "VMware.PowerCLI" | Install-Module -RequiredVersion "11.2.0.12483598" -Scope "AllUsers" -AllowClobber -Force }
 
 # This will create a Desktop Shortcut
 $Path = $env:Public + "\Desktop\VMware PowerCLI.lnk"
