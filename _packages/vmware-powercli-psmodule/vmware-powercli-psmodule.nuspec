@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>vmware-powercli-psmodule</id>
-    <version>10.1.1.8827524</version>
+    <version>11.2.0.12483598</version>
     <title>VMware.PowerCLI</title>
     <authors>VMware, Inc.</authors>
     <owners>virtualex</owners>
@@ -10,15 +10,15 @@
     <projectUrl>https://www.powershellgallery.com/packages/VMware.PowerCLI</projectUrl>
     <iconUrl>http://cdn.rawgit.com/virtualex-itv/chocolatey/master/_icons/PowerCLI.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>VMware PowerCLI provides a Windows PowerShell interface to the VMware vSphere, vCloud, vRealize Operations Manager, and VMware Horizon APIs. VMware PowerCLI includes numerous cmdlets, sample scripts, and a function library.
+    <description>###VMware PowerCLI provides a Windows PowerShell interface to the VMware vSphere, vCloud, vRealize Operations Manager, vSAN, NSX-T, VMware Cloud on AWS, and VMware Horizon APIs. VMware PowerCLI includes numerous cmdlets, sample scripts, and a function library.
 
 **[PACKAGE NOTES](https://github.com/virtualex-itv/chocolatey/blob/master/_packages/vmware-powercli-psmodule/README.md)**</description>
     <summary>This Windows PowerShell module contains VMware.PowerCLI</summary>
-    <releaseNotes>https://vdc-download.vmware.com/vmwb-repository/dcr-public/bfd0f802-3585-4664-ac8b-6c5da5dcdb73/fbd54c54-3282-4819-afaf-70f084040a16/vmware-powercli-1011-release-notes.html</releaseNotes>
+    <releaseNotes>https://vdc-repo.vmware.com/vmwb-repository/dcr-public/1607cbf1-ac1a-4692-964f-7fca6bd9b564/337d0f5a-da68-4bb7-9c06-e3b028a07302/vmware-powercli-112-release-notes.html</releaseNotes>
     <copyright>Copyright (c) VMware, Inc. All rights reserved.</copyright>
-    <tags>vmware powercli vsphere automation client virtual machine virtualization esx esxi powershell</tags>
+    <tags>vmware powercli vsphere automation client virtual machine virtualization esx esxi powershell nsx-t hcx</tags>
     <packageSourceUrl>https://github.com/virtualex-itv/chocolatey/blob/master/_packages/vmware-powercli-psmodule</packageSourceUrl>
-    <docsUrl>https://vdc-download.vmware.com/vmwb-repository/dcr-public/76e07a15-f457-47a0-a16c-0db7bd31bda8/9d37ff69-25de-45d9-80c1-16a1f429b86e/vmware-powercli-1011-user-guide.pdf</docsUrl>
+    <docsUrl>https://vdc-download.vmware.com/vmwb-repository/dcr-public/72479a44-60ed-4b00-839a-0e442d85a863/8a122814-064a-44b6-92d8-07f3b7dbc7ec/vmware-powercli-112-user-guide.pdf</docsUrl>
     <mailingListUrl>https://code.vmware.com/forums/2530/vmware-powercli</mailingListUrl>
     <dependencies>
       <dependency id="dotnet4.5" />
