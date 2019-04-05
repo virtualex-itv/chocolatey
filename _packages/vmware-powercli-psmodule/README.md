@@ -1,5 +1,6 @@
 [![Latest version released](https://img.shields.io/chocolatey/v/vmware-powercli-psmodule.svg)](https://chocolatey.org/packages/vmware-powercli-psmodule)
 [![Package downloads count](https://img.shields.io/chocolatey/dt/vmware-powercli-psmodule.svg)](https://chocolatey.org/packages/vmware-powercli-psmodule)
+![Maintenance](https://img.shields.io/maintenance/yes/2019.svg)
 
 #### VIRTUALEX'S PACKAGE NOTES:
 
