@@ -1,3 +1,6 @@
+[![Latest version released](https://img.shields.io/chocolatey/v/vmware-powercli-psmodule.svg)](https://chocolatey.org/packages/vmware-powercli-psmodule)
+[![Package downloads count](https://img.shields.io/chocolatey/dt/vmware-powercli-psmodule.svg)](https://chocolatey.org/packages/vmware-powercli-psmodule)
+
 #### VIRTUALEX'S PACKAGE NOTES:
 
 * This package will always install the specific version from the Microsoft PowerShell Gallery as long as it exists there.
