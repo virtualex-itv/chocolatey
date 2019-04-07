@@ -9,6 +9,7 @@ This repository is a collection of chocolatey packages that I've created.
 ----------
 Install Chocolatey using your preferred ***"administrative"*** shell application
 
+![Supported OS](https://img.shields.io/badge/os-windows-blue.svg)
 [![Latest released version](https://img.shields.io/chocolatey/v/chocolatey.svg)](https://chocolatey.org/packages/chocolatey)
 [![Latest released version](https://img.shields.io/chocolatey/vpre/chocolatey.svg)](https://chocolatey.org/packages/chocolatey)
 
