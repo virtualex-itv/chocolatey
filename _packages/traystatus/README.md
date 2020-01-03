@@ -4,7 +4,7 @@
 [![Package downloads count](https://img.shields.io/chocolatey/dt/traystatus.svg)](https://chocolatey.org/packages/traystatus)
 
 ![Supported OS](https://img.shields.io/badge/os-windows-blue.svg)
-![Maintenance](https://img.shields.io/maintenance/yes/2019.svg)
+![Maintenance](https://img.shields.io/maintenance/yes/2020.svg)
 
 #### VIRTUALEX'S PACKAGE NOTES:
 
