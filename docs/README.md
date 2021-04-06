@@ -48,4 +48,4 @@ https://chocolatey.org/docs/commands-upgrade
 <img src="http://ithinkvirtual.com/wp-content/uploads/2018/06/choco.gif">
 
 ----------
-### ***[packages](https://github.com/virtualex-itv/chocolatey/tree/master/_packages)***
+### ***[au-packages](https://github.com/virtualex-itv/chocolatey-packages/tree/master/automatic)***
