@@ -1,5 +1,5 @@
 <p align="center"><img src="https://secure.gravatar.com/avatar/3fb36d9d211b55cf1add5d69b3d96d5c?s=128&r=g&d=retro"></p>
-<p align="center"><img src="http://ithinkvirtual.com/wp-content/uploads/2018/06/choco-logo.jpg"></p>
+<p align="center"><img src="images/choco-logo.jpg"></p>
 
 # chocolatey
 This repository is a collection of chocolatey packages that I've created.
@@ -45,7 +45,7 @@ https://docs.chocolatey.org/en-us/choco/commands/upgrade/
 ----------
 `choco install firefox -y`
 
-<img src="http://ithinkvirtual.com/wp-content/uploads/2018/06/choco.gif">
+<img src="images/choco.gif">
 
 ----------
 ### ***[au-packages](https://github.com/virtualex-itv/chocolatey-packages/tree/master/automatic)***
